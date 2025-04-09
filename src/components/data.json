@@ -1,0 +1,25 @@
+[
+    {
+        "id": 0,
+        "postUrlArray": ["https://tmssl.akamaized.net/images/foto/galerie/youssef-en-nesyri-fenerbahce-1724056989-145443.jpg"],
+        "comment": "🤙😜👌",
+        "userName": "Yunuskskn",
+        "profilePicture": "https://cdnuploads.aa.com.tr/uploads/Contents/2015/12/07/thumbs_b_c_e57c9b0d2d4f6ac77c45ad5ca613c851.jpg"
+    },
+    {
+        "id": 1,
+        "postUrlArray": ["https://ideacdn.net/idea/ft/16/myassets/blogs/blog-3.jpg?revision=1678273897",
+                        "https://cdn.royalcanin-weshare-online.io/6yJZPmYBaxEApS7LDwYM/v4/ec13a-when-does-your-kitten-become-a-cat-article-cat",
+                        "https://www.mamaplus.com/blog/wp-content/uploads/2024/08/british-shorthair-kedi-irki-1024x576.jpg"],
+        "comment": "🦁",
+        "userName": "yunus",
+        "profilePicture": "https://vettown.com.tr/wp-content/uploads/2024/10/2150782439-1.jpg"
+    },
+    {
+        "id": 2,
+        "postUrlArray": ["https://www.webtekno.com/images/editor/default/0003/68/5b2ae4da1c0cd20cb5d441da32f8165720a07e90.jpeg"],
+        "comment": "🤙",
+        "userName": "Yunuskskn",
+        "profilePicture": "https://cdnuploads.aa.com.tr/uploads/Contents/2015/12/07/thumbs_b_c_e57c9b0d2d4f6ac77c45ad5ca613c851.jpg"
+    }
+]
