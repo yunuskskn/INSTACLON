@@ -6,8 +6,8 @@ import Input from "../components/Input"
 
 function Loginİnformation({navigation}){
 
-    const [userName, setUserName] = useState(null);
-    const [userPassword, setUserPassword] = useState(null); 
+    const [userName, setUserName] = useState("");
+    const [userPassword, setUserPassword] = useState(""); 
 
     function handleSubmit(){
         if(!userName || !userPassword){
@@ -15,14 +15,14 @@ function Loginİnformation({navigation}){
             return
         }
         
-        navigation.navigate("HomeScreen")
+        navigation.replace("HomeScreen")
     }
 
     return(
         <SafeAreaView style={styles.container}>
             <Text style={styles.text}>InstaClon</Text>
-            <Input placeholder="Kullanıcı Adı" onChangeText={setUserName} />
-            <Input placeholder="Şifre" onChangeText={setUserPassword} /> 
+            <Input placeholder="Kullanıcı Adı" onChangeText={setUserName} IconName="account"/>
+            <Input placeholder="Şifre" onChangeText={setUserPassword} IconName="key" isSecure/> 
             <Button text="Giriş Yap" onPress={handleSubmit} />
         </SafeAreaView>
     )

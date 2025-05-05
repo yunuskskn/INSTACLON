@@ -5,7 +5,7 @@ import Button from "../components/Button"
 function Login({navigation}) {
 
     function goToLoginİnformation(){
-        navigation.navigate("LoginİnformationScreen")
+        navigation.replace("LoginİnformationScreen")
     }
 
     return(
