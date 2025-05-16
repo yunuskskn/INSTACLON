@@ -4,10 +4,13 @@ export default StyleSheet.create({
     
     image: {
         height: Dimensions.get("window").height / 2,
+        backgroundColor: "#ccc"
     },
     comment: {
+        flex: 1,
+        flexShrink: 1,
         color: "white",
-        padding: 10
+        padding: 10,
     },
     profile_picture: {
         width: 50,
@@ -24,10 +27,6 @@ export default StyleSheet.create({
         flex: 1,
         flexDirection: "row",
         padding: 10
-    },
-    scroll_image: {
-        height: Dimensions.get("window").height / 2,
-        width: Dimensions.get("window").width 
     },
     container: {
         flex: 1
