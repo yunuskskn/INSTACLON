@@ -9,7 +9,7 @@ function Post({post}){
     return(
         <SafeAreaView style={styles.container}>   
             <View style={styles.inner_container}>
-                <Image style={styles.profile_picture} source={{uri: post.thumbnailUrl}} />
+                <Image style={styles.profile_picture} source={{uri: post.profilResim}} />
                 <Text style={styles.userName}>{post.username}</Text> 
             </View>
 

@@ -24,7 +24,7 @@ function HomePage(){
             const slicedPostArray = postResponse.data.slice(0, 20);
             const slicedUserArray = userResponse.data.slice(0, 20);
             const slicedCommentArray = commentResponse.data.slice(0, 20);
-            const responseFullData = slicedArray.map((item, index) => ({...item, ...slicedPostArray[index], ...slicedUserArray[index], ...slicedCommentArray[index], resim: "https://assets.goal.com/images/v3/blt48cea88f1dea1192/210225%20Youssef%20En%20Nesyri%20of%20Fenerbahce%20celebrates%201920.jpg?auto=webp&format=pjpg&width=3840&quality=60"}))
+            const responseFullData = slicedArray.map((item, index) => ({...item, ...slicedPostArray[index], ...slicedUserArray[index], ...slicedCommentArray[index], resim: "https://assets.goal.com/images/v3/blt48cea88f1dea1192/210225%20Youssef%20En%20Nesyri%20of%20Fenerbahce%20celebrates%201920.jpg?auto=webp&format=pjpg&width=3840&quality=60", profilResim: "https://www.malumatfurus.org/wp-content/uploads/alex-de-souza-fenerbahce.jpg"}))
             setFullData(responseFullData)
             setLoading(false)
         } catch (error) {

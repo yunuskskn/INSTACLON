@@ -13,7 +13,7 @@ function Loginİnformation({navigation}){
 
     function handleSubmit(){
         if(!userName || !userPassword){
-            Alert.alert("InstaClon", "E-posta veya şifre boş bırakılamaz!")
+            Alert.alert("InstaClon", "Kullanıcı Adı veya şifre boş bırakılamaz!")
             return
         }else{
             dispatch({type: "USER_LOGIN", payload: {userName: userName, password: userPassword}})
